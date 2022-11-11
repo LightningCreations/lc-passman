@@ -1,0 +1,3 @@
+[submodule "lc-crypto"]
+	path = lc-crypto
+	url = https://github.com/LightningCreations/lc-crypto.git
