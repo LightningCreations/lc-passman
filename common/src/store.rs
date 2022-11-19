@@ -25,3 +25,7 @@ pub enum StoreRow{
     Note(Note)
 } 
 
+#[derive(Clone, Debug, Hash, PartialEq, Eq, Deserialize, Serialize)]
+pub struct StoreKey{
+    pub objid: [u8;32],
+}
